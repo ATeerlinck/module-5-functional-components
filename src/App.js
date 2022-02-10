@@ -69,7 +69,7 @@ const App = () => {
   return ( 
     <div className="App">
       <header style= {{display: 'flex', alignItems: 'center', justifyContent: 'center' , flexWrap: 'wrap'}} className="App-header">
-        <div>Olypmic Medals</div>
+        <div>Olympic Medals</div>
         <Avatar sx={{ bgcolor: '#e2d02f', mx:2}}>{ getMedalCount("gold") }</Avatar>
         <Avatar sx={{ bgcolor: '#cacaca', mx:2}}>{ getMedalCount("silver") }</Avatar>
         <Avatar sx={{ bgcolor: '#a1671a', mx:2}}>{ getMedalCount("bronze") }</Avatar>
